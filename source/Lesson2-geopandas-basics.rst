@@ -327,7 +327,7 @@ case since we are creating the data from the scratch:
     outfp = r"/home/geo/Data/Senaatintori.shp"
 
     # Write the data into that Shapefile
-    newdata.to_file(out)
+    newdata.to_file(outfp)
 
 Now we have successfully created a Shapefile from the scratch using only
 Python programming. Similar approach can be used to for example to read
