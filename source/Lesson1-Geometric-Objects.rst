@@ -460,7 +460,7 @@ Geometry collection -objects' attributes and functions
      west_area = multi_poly[0].area
 
      # We can check if we have a "valid" MultiPolygon. MultiPolygon is thought as valid if the individual polygons 
-     # does notintersect with each other. Here, because the polygons have a common 0-meridian, we should NOT have 
+     # does not intersect with each other. Here, because the polygons have a common 0-meridian, we should NOT have 
      # a valid polygon. This can be really useful information when trying to find topological errors from your data
      valid = multi_poly.is_valid
 
